@@ -1,7 +1,6 @@
-// DailyStatistics.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './DailyStatistics.css'; // Import CSS for styling
+import './DailyStatistics.css';
 
 function DailyStatistics({ user }) {
   const [sleepData, setSleepData] = useState([]);
